@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  font-size: 62.5%;/*Definindo a porcentagem para utilizar o REM*/
+}
+
+body{
+  background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+  font-size: 1.6rem;
+  display: grid; /*Definindo display em grade*/
+  place-items: center;/*Utilizando center para posicionar o único elemento filho no centro*/
+
+  height: 100vh;
+}
+
+main{
+  background: #FFFF;
+  border-radius: 0.6rem;
+  box-shadow: 0rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 4.8rem 6.4rem 6.4rem;
+  margin-top: -12rem;/*Este margin top negativo deixa o main mais acima, trazendo um alinhamento melhor ao centro*/
+
+  width: min(42.8rem, 90%); /*Função min define um tamanho mínimo para a caixa, caso o tamanho precise ser reduzido ele será de 90%*/
+}
